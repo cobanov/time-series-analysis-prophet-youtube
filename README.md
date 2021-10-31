@@ -2,6 +2,9 @@
 
 Prophet kütüphanesi, tek değişkenli zaman serisi veri kümeleri için tahminler yapmak için tasarlanmış açık kaynaklı bir kütüphanedir. Kullanımı kolaydır ve varsayılan olarak trendler ve mevsimsel yapıya sahip veriler için tahminler yapmak amacıyla model için iyi bir hiperparametre kümesini otomatik olarak bulmak üzere tasarlanmıştır.
 
+Sunum ve notebooklara repo icerisinde ulasabilirsiniz.
+
+
 ## Kurulumlar
 
 Bu projeyi gerceklestirmek icin asagidaki kutuphanelere ihtiyaciniz vardir:
