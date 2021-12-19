@@ -1,33 +1,27 @@
 # Time Series Analysis with Python Prophet
+The Prophet library is an open source library designed to make predictions for univariate time series datasets. It is easy to use and by default is designed to automatically find a good set of hyperparameters for the model to make predictions for data with trends and seasonality.
 
-Prophet kütüphanesi, tek değişkenli zaman serisi veri kümeleri için tahminler yapmak için tasarlanmış açık kaynaklı bir kütüphanedir. Kullanımı kolaydır ve varsayılan olarak trendler ve mevsimsel yapıya sahip veriler için tahminler yapmak amacıyla model için iyi bir hiperparametre kümesini otomatik olarak bulmak üzere tasarlanmıştır.
-
-Sunum ve notebooklara repo icerisinde ulasabilirsiniz.
-
-
-## Kurulumlar
-
-Bu projeyi gerceklestirmek icin asagidaki kutuphanelere ihtiyaciniz vardir:
-
-- fbprophet
-- pandas
-- matplotlib
-- plotly (Zorunlu degil fakat prophet bazi durumlarda ihtiyaci olacak)
-- scikit-learn
-
-Gerekli kutuphane kurulumlarini asagidaki kod satirini calistirarak tamamlayabilirsiniz.
-
-`pip install fbprophet pandas matplotlib plotly scikit-learn`
+You can access presentations and notebooks in the repo.
 
 ## Dataset
-
 [Monthly Car Sales Dataset](https://raw.githubusercontent.com/jbrownlee/Datasets/master/monthly-car-sales.csv)
 
-Ayni zamanda [bu linkten](https://github.com/jbrownlee/Datasets/) onlarca farkli datasete ulasabilirsiniz
+Also you can access dozens of different datasets with [this link](https://github.com/jbrownlee/Datasets/)
 
-## Kaynak
+## Requirements
 
-Machine Learning Mastery Facebook Prophet ile basit zaman serisi egitimi. [Kaynak](https://machinelearningmastery.com/time-series-forecasting-with-prophet-in-python/)
+To run this project you need the following libraries:
+```
+fbprophet
+pandas
+matplotlib
+plotly
+scikit-learn
+```
+
+## Sources
+Machine Learning Mastery Simple time series training with Facebook Prophet.
+[Source](https://machinelearningmastery.com/time-series-forecasting-with-prophet-in-python/)
 
 - https://github.com/kedarvkunte/End-to-End-Data-Science-Project-Time-Series-Analysis-for-Temperature-Forecasting-using-ARIMA-Model
 - https://towardsdatascience.com/an-end-to-end-project-on-time-series-analysis-and-forecasting-with-python-4835e6bf050b
